@@ -122,7 +122,7 @@ module.exports = {
     }),
     new CommonsChunkPlugin({
         name: "bootstrap",
-        filename: "bootstrap.bundle.js"
+        filename: "./js/[name].bundle.js"
     })
   ]
 }
